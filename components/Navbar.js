@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="flex justify-between p-4 bg-white shadow-md">
+    <nav className="flex justify-between p-4 bg-white shadow-md fixed top-0 w-full z-10">
       <div className="font-bold">YOUR LOGO</div>
       <ul className="hidden md:flex gap-4">
         <li>Media Plus</li>
