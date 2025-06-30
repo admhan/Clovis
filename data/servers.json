@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Server A",
+    "description": "Description du serveur A",
+    "image": "https://via.placeholder.com/300x150"
+  },
+  {
+    "title": "Server B",
+    "description": "Description du serveur B",
+    "image": "https://via.placeholder.com/300x150"
+  }
+]

@@ -1,24 +1,20 @@
 # MCP Serveurs HOC
 
-## 🚀 Lancement
+Site web inspiré de Smithery.ai construit avec Next.js et Tailwind CSS.
+
+## 🚀 Lancer le projet
 
 ```bash
 npm install
-npm run build
-firebase deploy
+npm run dev
 ```
 
-## ⚙️ Setup Firebase
-- Crée Firestore, ajoute la collection `servers`.
-- Configure Auth (Google ou email).
-- Ajoute le rôle admin via custom claims si besoin.
+## Ajouter des serveurs MCP
 
-## 💡 API Functions
-- `/api/servers` — liste les serveurs
-- `/api/servers/:id` — détail
-- `/api/servers` [POST] — ajoute un serveur (auth requis)
-- `/api/install` [POST] — simule l’installation
+Les serveurs affichés dans la grille sont définis dans `data/servers.json`.
+Chaque objet contient `title`, `description` et `image`. Modifiez ce fichier pour
+ajouter ou retirer des serveurs.
 
 ---
 
-✅ **Tu peux remplacer `YOUR LOGO` dans Navbar et Hero par une vraie image.**
+Vous pouvez remplacer `YOUR LOGO` dans la barre de navigation par votre image.
